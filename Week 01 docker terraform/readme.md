@@ -54,3 +54,8 @@ FROM (SELECT trip.*, zone."Zone" as pu_zone, zone2."Zone" as do_zone
 ORDER BY tip_amount DESC
 LIMIT 1;
 ```
+
+## Question 7 
+Created GCP resources using `terraform apply` - an IaC 
+- `main.tf` The file that provisioned Google Storage Bucket and create a Bigquery Dataset
+- `variables.tf` The file that defined all variables used in `main.tf`
