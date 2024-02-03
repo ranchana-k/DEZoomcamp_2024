@@ -23,7 +23,7 @@ WHERE trip_distance = (SELECT MAX(trip_distance) FROM green_taxi_trip);
 ```
 
 ## Question 5 
-To find Three biggest pick up Boroughs that had a sum of total_amount superior to 50000
+To find Three biggest pick up Boroughs that had a sum of total_amount superior to 50000.
 
 ```
 SELECT pickup_borough, SUM(total_amount) AS borough_total_amount
