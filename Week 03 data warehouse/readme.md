@@ -56,4 +56,3 @@ SELECT distinct(PULocationID)
 FROM `nyc_taxi_data.green_tripdata_partitoned`
 WHERE DATE(lpep_pickup_datetime) BETWEEN '2022-06-01' AND '2022-06-30'
 ```
-
