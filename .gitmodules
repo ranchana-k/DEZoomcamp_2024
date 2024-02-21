@@ -1,0 +1,3 @@
+[submodule "Week 04 Analytics Engineering/taxi_rides_nyc_dbt"]
+	path = Week 04 Analytics Engineering/taxi_rides_nyc_dbt
+	url = https://github.com/ranchana-k/taxi_rides_nyc_dbt.git
